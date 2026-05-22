@@ -1,3 +1,13 @@
+---
+title: Seed Segmentation Demo
+emoji: 🌱
+colorFrom: green
+colorTo: blue
+sdk: docker
+app_port: 7860
+pinned: false
+---
+
 # Seed Segmentation Server Prototype
 
 Minimal deployable server inference core for seed segmentation.
@@ -94,7 +104,7 @@ docker build -t seed-segmentation-prototype .
 Run:
 
 ```powershell
-docker run -d --name seed-segmentation-prototype -p 8001:8000 seed-segmentation-prototype
+docker run -d --name seed-segmentation-prototype -p 8001:7860 seed-segmentation-prototype
 ```
 
 Open:
